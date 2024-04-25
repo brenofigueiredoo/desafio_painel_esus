@@ -80,13 +80,9 @@ Retorna os atendimentos de acordo com os filtros passados na query.
 <br>
 É possível adicionar um ou mais filtros na query da requisição com os seguintes campos:
 
-```
-{
-  data_atendimento=2024-01-01
-  condicao_saude=diabetes
-  unidade=Unidade de saude Maria Vitória
-}
-```
+- data_atendimento (str): Formato 'YYYY-mm-dd'.
+- condicao_saude (str): hipertensao|diabetes|ferida vascular|dengue|tuberculose.
+- unidade (str).
 
 Exemplo de como ficaria a url da requisição:
 
